@@ -1,0 +1,100 @@
+.panel{
+	padding-top:20px;
+}
+form div
+{
+	/* margin-top:25px; */
+}
+.bank{
+	height: 40px;
+    font-size: 17px;
+}
+.a_register{
+	font-size: 16px;
+	float:right;
+}
+.left_box{
+	float:left;
+	margin-top: -20px;
+}
+.right_box{	
+	
+    margin-top: -20px;
+    background: rgba(219, 141, 97,0.6);
+}
+body{  
+    background:url(images/coin.jpg)no-repeat;  
+    width:100%;  
+    height:100%;  
+    background-size:100% 100%;  
+    position:absolute;  
+}
+.navbar-inverse {
+    background-color: #63453b;
+    background: rgba(13, 8, 2,0.7);
+    border-color: #f36e42;
+}
+.login_box{
+	background: rgba(219, 141, 97,0.6);
+	border:0px;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: #d65935;
+}
+.navbar-inverse .navbar-nav > li > a:hover, 
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: #fff;
+    background-color: #d65935;
+}
+.navbar-inverse .navbar-nav > .open > a, 
+.navbar-inverse .navbar-nav > .open > a:hover, 
+.navbar-inverse .navbar-nav > .open > a:focus {
+    color: #fff;
+    background-color: #d65935;
+}
+.index_left_box{
+	padding: 0px;
+    margin-top: -20px;
+    background: rgba(0,0,0,0.3);
+    height:50%;
+    color:white;
+}
+.index_right_box{
+	padding-top: 30px;
+	padding-left:40px;
+    margin-top: -20px;
+	height:50%;
+	background: rgba(0,0,0,0.3);
+	color:white;
+}
+.menu > .nav > li > a{
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    color: white;
+}
+.nav > li > a:hover, 
+.nav > li > a:focus {
+    color: #0d3d88;
+    text-decoration: none;
+    background: rgba(0,0,0,0.8);
+}
+.menu > .nav > li.show > a, .menu > .nav > li.show > a:hover, .menu > .nav > li.show > a:focus {
+    color: white;
+   background: rgba(0,0,0,0.8);
+    border-color: #ddd;
+}
+#ope1 li a{
+	color:white;
+}
+#ope2 li a{
+	color:white;
+}
+
+.menu > .nav > li > .nav > li > a:hover, 
+.menu > .nav > li > .nav > li > a:focus {
+    background-color: #d65935;
+}

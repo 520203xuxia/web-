@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="terminalHomework"
+  id="myeclipse.1513480976750"
+  context-root="/terminalHomework"
+  j2ee-spec="5.0"
+  archive="terminalHomework.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

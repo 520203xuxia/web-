@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list> 
+  <!--为servlet命名	-->  
+  
+  
+  <servlet>
+        <servlet-name>AddServlet</servlet-name>
+        <servlet-class>service.AddServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddServlet</servlet-name>
+        <url-pattern>/AddServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>service.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ActServlet</servlet-name>
+        <servlet-class>service.ActServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ActServlet</servlet-name>
+        <url-pattern>/ActServlet</url-pattern>
+    </servlet-mapping>
+  
+  
+  
+  
+  <servlet>
+    <servlet-name>registerServlet</servlet-name>
+    <servlet-class>registerServlet</servlet-class>
+</servlet>
+<!--为servlet定制URL-->
+<servlet-mapping>
+    <servlet-name>registerServlet</servlet-name>
+    <url-pattern>/registerServlet</url-pattern>
+</servlet-mapping>	
+<servlet>
+    <servlet-name>loginServlet</servlet-name>
+    <servlet-class>loginServlet</servlet-class>
+</servlet>
+<!--为servlet定制URL-->
+<servlet-mapping>
+    <servlet-name>loginServlet</servlet-name>
+    <url-pattern>/loginServlet</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+    <servlet-name>register</servlet-name>
+    <servlet-class>register</servlet-class>
+</servlet>
+<!--为servlet定制URL-->
+<servlet-mapping>
+    <servlet-name>register</servlet-name>
+    <url-pattern>/register</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>actservlet</servlet-name>
+    <servlet-class>actservlet</servlet-class>
+</servlet>
+<!--为servlet定制URL-->
+<servlet-mapping>
+    <servlet-name>actservlet</servlet-name>
+    <url-pattern>/actservlet</url-pattern>
+</servlet-mapping>
+	
+<servlet>
+    <servlet-name>clientLogin</servlet-name>
+    <servlet-class>clientLogin</servlet-class>
+</servlet>
+<!--为servlet定制URL-->
+<servlet-mapping>
+    <servlet-name>clientLogin</servlet-name>
+    <url-pattern>/clientLogin</url-pattern>
+</servlet-mapping>
+  
+<servlet>
+    <servlet-name>counterLogin</servlet-name>
+    <servlet-class>counterLogin</servlet-class>
+</servlet>
+<!--为servlet定制URL-->
+<servlet-mapping>
+    <servlet-name>counterLogin</servlet-name>
+    <url-pattern>/counterLogin</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>counterOpe</servlet-name>
+    <servlet-class>counterOpe</servlet-class>
+</servlet>
+<!--为servlet定制URL-->
+<servlet-mapping>
+    <servlet-name>counterOpe</servlet-name>
+    <url-pattern>/counterOpe</url-pattern>
+</servlet-mapping>
+  <!-- 设置全局参数 -->
+  <context-param>
+        <param-name>Driver</param-name>
+        <param-value>com.mysql.jdbc.Driver</param-value>
+   </context-param>
+  <context-param>
+        <param-name>localhost</param-name>
+        <param-value>localhost</param-value>
+   </context-param>
+   <context-param>
+        <param-name>port</param-name>
+        <param-value>3306</param-value>
+   </context-param>
+   <context-param>
+        <param-name>IP</param-name>
+        <param-value>172.31.75.246</param-value>
+   </context-param>
+    <context-param>
+        <param-name>username</param-name>
+        <param-value>S2015150290</param-value>
+   </context-param>
+    <context-param>
+        <param-name>passwd</param-name>
+        <param-value>162448</param-value>
+   </context-param>
+ 
+	<multipart-config>
+		<max-file-size>52428800</max-file-size>
+		<max-request-size>52428800</max-request-size>
+		<file-size-threshold>0</file-size-threshold>
+	</multipart-config>
+</web-app>
+
+
+
+
+
